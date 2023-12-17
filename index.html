@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
@@ -23,109 +23,97 @@
   </head>
 
   <header>
-
     <h1 class="heading">Weather Dashboard</h1>
     <h5 class="heading">
-      <span  id ="time-display"></span>
+      <span id="time-display"></span>
     </h5>
-
+    <p class="lead">A Simple Weather App</p>
   </header>
   <body>
-    
-    <div class ="main-layout">
-
-      <div class ="weather-input"> 
-        <h3>Search for a city: </h3>
-        <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+    <div class="main-layout">
+      <div class="weather-input">
+        <h3>Search for a city:</h3>
+        <input
+          class="city-input"
+          type="text"
+          placeholder="E.g., New York, London, Tokyo"
+        />
         <button class="search-btn">Search</button>
         <div class="separator"></div>
         <button class="location-btn">Use Current Location</button>
-        <div class="container cityHist">
-          
+        <div class="container cityHist"></div>
+      </div>
+
+      <div class="weather-data">
+        <!----------------------------------------------------------------->
+        <div class="current-weather">
+          <section class="weather-detail">
+            <h3>........</h3>
+            <h4>Temp: <span class="2"></span></h4>
+            <h4>Wind: <span class="3"></span></h4>
+            <h4>Humidity: <span class="4"></span></h4>
+          </section>
+          <section class="weather-icon">
+            <img src="" alt="weather-icon" />
+            <h4>........</h4>
+          </section>
         </div>
 
+        <!----------------------------------------------------------------->
+
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card0">
+              <h3>........</h3>
+              <img src="" alt="weather-icon" />
+              <h4>Temp: <span class="2"></span></h4>
+              <h4>Wind: <span class="3"></span></h4>
+              <h4>Humidity: <span class="4"></span></h4>
+            </li>
+
+            <li class="card1">
+              <h3>........</h3>
+              <img src="" alt="weather-icon" />
+              <h4>Temp: <span class="2"></span></h4>
+              <h4>Wind: <span class="3"></span></h4>
+              <h4>Humidity: <span class="4"></span></h4>
+            </li>
+
+            <li class="card2">
+              <h3>........</h3>
+              <img src="" alt="weather-icon" />
+              <h4>Temp: <span class="2"></span></h4>
+              <h4>Wind: <span class="3"></span></h4>
+              <h4>Humidity: <span class="4"></span></h4>
+            </li>
+
+            <li class="card3">
+              <h3>........</h3>
+              <img src="" alt="weather-icon" />
+              <h4>Temp: <span class="2"></span></h4>
+              <h4>Wind: <span class="3"></span></h4>
+              <h4>Humidity: <span class="4"></span></h4>
+            </li>
+
+            <li class="card4">
+              <h3>........</h3>
+              <img src="" alt="weather-icon" />
+              <h4>Temp: <span class="2"></span></h4>
+              <h4>Wind: <span class="3"></span></h4>
+              <h4>Humidity: <span class="4"></span></h4>
+            </li>
+          </ul>
         </div>
-
-        
-
-        <div class = "weather-data">
-          <!----------------------------------------------------------------->
-          <div class = 'current-weather'>
-              <section class = "weather-detail">
-                <h3>........</h3>
-                <h4>Temp: <span class="2"></span></h4>
-                <h4>Wind: <span class="3"></span></h4>
-                <h4>Humidity: <span class="4"></span></h4>
-              </section>
-              <section class ='weather-icon'>
-                <img src="" alt="weather-icon">
-                <h4>........</h4>
-              </section>
-          </div>
-
-            <!----------------------------------------------------------------->
-
-            <div class ="days-forecast">
-              <h2> 5-Day Forecast</h2>
-              <ul class="weather-cards">
-                <li class="card0">
-                  <h3>........</h3> 
-                  <img src="" alt="weather-icon">
-                  <h4>Temp: <span class="2"></span></h4>
-                  <h4>Wind: <span class="3"></span></h4>
-                  <h4>Humidity: <span class="4"></span></h4>
-                </li>
-
-                <li class="card1">
-                  <h3>........</h3> 
-                  <img src="" alt="weather-icon">
-                  <h4>Temp: <span class="2"></span></h4>
-                <h4>Wind: <span class="3"></span></h4>
-                <h4>Humidity: <span class="4"></span></h4>
-                </li>
-
-                <li class="card2">
-                  <h3>........</h3> 
-                  <img src="" alt="weather-icon">
-                  <h4>Temp: <span class="2"></span></h4>
-                  <h4>Wind: <span class="3"></span></h4>
-                  <h4>Humidity: <span class="4"></span></h4>
-                </li>
-
-                <li class="card3">
-                  <h3>........</h3> 
-                  <img src="" alt="weather-icon">
-                  <h4>Temp: <span class="2"></span></h4>
-                  <h4>Wind: <span class="3"></span></h4>
-                  <h4>Humidity: <span class="4"></span></h4>
-                </li>
-
-                <li class="card4">
-                  <h3>........</h3> 
-                  <img src="" alt="weather-icon">
-                  <h4>Temp: <span class="2"></span></h4>
-                  <h4>Wind: <span class="3"></span></h4>
-                  <h4>Humidity: <span class="4"></span></h4>
-                </li>
-
-              </ul>
-            </div>
-
-
-
-        </div>
-
-
-
+      </div>
     </div>
-    
 
+    <!-- footer -->
+    <div class="footer">
+      <h2>Made with ❤️️ by Khoi Phan</h2>
+      <p>&copy; 2023 Khoi Phan Solution Services, Inc.</p>
+    </div>
 
-
-
-
-
-        
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script
